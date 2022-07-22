@@ -1,0 +1,15 @@
+.main-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.main-grid-item {
+    background-color: pink;
+
+    width: 1920px;
+    margin: auto;
+}
+
+.item2 {
+    background-color: aqua;
+}
