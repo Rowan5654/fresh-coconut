@@ -6,20 +6,22 @@ function Navigation() {
     return (
         <>
             <div className="navigation-menu">
-                <div className="left-nav-items">
-                    <div className="logo">
-                        <p className="logo-text">FreshCoconut</p>
-                        <img className="logo-image" src={logo}/>
+                {/* Left */}
+                <div className="nav-left">
+                    <div className="navigation-logo">
+                        <p className="nav-logo-text">FreshCoconut</p>
+                        <img className="nav-logo-icon" src={logo} />
                     </div>
-                    <div className="nav-links">
-                        <p className="nav-link-text">about us</p>
-                        <p className="nav-link-text">work</p>
-                        <p className="nav-link-text">services</p>
-                        <p className="nav-link-text">prices</p>
+                    <div className="nav-left-links">
+                        <p className="nav-left-link">about us</p>
+                        <p className="nav-left-link">work</p>
+                        <p className="nav-left-link">services</p>
+                        <p className="nav-left-link">prices</p>
                     </div>
                 </div>
-                <div className="right-nav-items">
-                    <p className="right-nav-text">get in touch!</p>
+                {/* Right */}
+                <div className="nav-right-link">
+                    <p className="nav-right-link-text">get in touch!</p>
                 </div>
             </div>
         </>

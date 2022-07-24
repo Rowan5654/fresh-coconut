@@ -1,26 +1,21 @@
-
 .navigation-menu {
     width: 1620px;
     height: 78px;
 
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
     border-radius: 40px;
 
-    padding: 0px 12px 0px 56px;
-    margin: 60px auto 212px;
-
     background-color: #202020;
-}
-.navigation-menu p {
-    margin: 0;
+
+    padding: 0 12px 0 56px;
+    margin: 60px auto 212px;
 }
 
-/* left items */
-.left-nav-items {
+/* nav left */
+.nav-left {
     width: 554px;
     height: 38px;
 
@@ -30,54 +25,57 @@
     gap: 46px;
 }
 
-.logo {
+.navigation-logo {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
 }
 
-.logo-text {
+.nav-logo-text {
     font-family: 'Reem Kufi', sans-serif;
-    font-size: 25px;
     font-weight: 700;
-    color: #FFFFFF;
+    font-size: 25px;
+    color: white;
+    letter-spacing: -3px;
+
+    margin: 0;
 }
 
-.logo-image {
-    width: 32px;
-    height: 26px;
+.nav-logo-icon {
+    width: 30px;
+    height: 25px;
 }
 
-.nav-links {
+.nav-left-links {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 32px;
 }
 
-.nav-link-text {
+.nav-left-link {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     color: white;
+    
+    margin: 0;
 }
 
-/* right items */
-.right-nav-items {
-    width: 163px;
-    height: 54px;
+/* nav right */
+.nav-right-link {
+    padding: 16px 26px;
 
     border-radius: 28px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     background-color: #DCCBFF;
 }
 
-.right-nav-text {
+.nav-right-link-text {
+    margin: 0;
+
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
+
+    color: #202020
 }

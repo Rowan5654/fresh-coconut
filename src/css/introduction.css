@@ -1,0 +1,35 @@
+.intro-div {
+    width: 1620px;
+    height: 480;
+
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto 290px;
+}
+
+.intro-text-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.purple-intro-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    color: #A566F6;
+
+    margin: 0;
+}
+
+.green-intro-text {
+    font-weight: 900;
+    color: #10DCAB;
+}
+
+.intro-logo {
+    width: 100px;
+    height: 80px;
+}

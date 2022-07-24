@@ -4,12 +4,15 @@
 }
 
 .main-grid-item {
-    background-color: pink;
-
     width: 1920px;
     margin: auto;
 }
 
-.item2 {
+/* remove */
+#unfinished {
+    background-color: pink;
+}
+
+#next {
     background-color: aqua;
 }

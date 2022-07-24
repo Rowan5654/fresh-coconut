@@ -6,6 +6,7 @@ import "./css/index.css"
 
 //components
 import Navigation from "./components/navigation.js"
+import Introduction from "./components/introduction.js"
 
 function App()
 {
@@ -17,23 +18,23 @@ function App()
           {Navigation()}
         </div>
         {/* Splash Title */}
-        <div className="main-grid-item item2">
-          <p>2</p>
+        <div className="main-grid-item">
+          {Introduction()}
         </div>
         {/* Services */}
-        <div className="main-grid-item">
-          <p>3</p>
+        <div className="main-grid-item" id="unfinished">
+          
         </div>
         {/* Sponsors */}
-        <div className="main-grid-item">
+        <div className="main-grid-item" id="next">
           <p>4</p>
         </div>
         {/* Features */}
-        <div className="main-grid-item">
+        <div className="main-grid-item" id="unfinished">
           <p>5</p>
         </div>
         {/* Footer */}
-        <div className="main-grid-item">
+        <div className="main-grid-item" id="unfinished">
           <p>6</p>
         </div>
       </div>
