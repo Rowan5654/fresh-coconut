@@ -28,7 +28,7 @@ function App()
           {Services()}
         </div>
         {/* Sponsors */}
-        <div className="main-grid-item" id="unfinished">
+        <div className="main-grid-item sponsors">
           {Sponsors()}
         </div>
         {/* Features */}

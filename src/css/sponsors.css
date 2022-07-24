@@ -1,0 +1,22 @@
+.sponsors-div {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 419px;
+}
+
+.sponsors-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+
+}
+
+.sponsors-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
