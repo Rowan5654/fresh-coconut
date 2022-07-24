@@ -7,6 +7,8 @@ import "./css/index.css"
 //components
 import Navigation from "./components/navigation.js"
 import Introduction from "./components/introduction.js"
+import Services from './components/services';
+import Sponsors from './components/sponsors';
 
 function App()
 {
@@ -22,15 +24,15 @@ function App()
           {Introduction()}
         </div>
         {/* Services */}
-        <div className="main-grid-item" id="unfinished">
-          
+        <div className="main-grid-item">
+          {Services()}
         </div>
         {/* Sponsors */}
-        <div className="main-grid-item" id="next">
-          <p>4</p>
+        <div className="main-grid-item" id="unfinished">
+          {Sponsors()}
         </div>
         {/* Features */}
-        <div className="main-grid-item" id="unfinished">
+        <div className="main-grid-item" id="next">
           <p>5</p>
         </div>
         {/* Footer */}
