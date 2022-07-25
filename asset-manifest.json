@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/fresh-coconut/static/js/main.97978e08.js",
+    "main.css": "/fresh-coconut/static/css/main.466fc981.css",
+    "main.js": "/fresh-coconut/static/js/main.29efe6a2.js",
+    "static/media/creative-solution-service-image.png": "/fresh-coconut/static/media/creative-solution-service-image.6010f1d3d33d08043682.png",
     "index.html": "/fresh-coconut/index.html",
-    "main.97978e08.js.map": "/fresh-coconut/static/js/main.97978e08.js.map"
+    "main.466fc981.css.map": "/fresh-coconut/static/css/main.466fc981.css.map",
+    "main.29efe6a2.js.map": "/fresh-coconut/static/js/main.29efe6a2.js.map"
   },
   "entrypoints": [
-    "static/js/main.97978e08.js"
+    "static/css/main.466fc981.css",
+    "static/js/main.29efe6a2.js"
   ]
 }
