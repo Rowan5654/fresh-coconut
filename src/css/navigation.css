@@ -3,6 +3,7 @@
     height: 78px;
 
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
 
@@ -79,3 +80,4 @@
 
     color: #202020
 }
+

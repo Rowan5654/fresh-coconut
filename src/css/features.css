@@ -1,0 +1,134 @@
+.features-div {
+    width: 1620px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+    margin: 0 auto 477px;
+}
+
+.feature-text {
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+
+    margin: 50px 60px;
+}
+
+/* top column */
+.top-column-features {
+    width: 1620px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.top-column-feature {
+    width: 523px;
+    height: 523px;
+
+    border-radius: 50px;
+}
+
+.top-left-feature {
+    border-radius: 50px 50px 261.5px 50px;
+    background-color: #DCCBFF;
+}
+
+.top-left-feature p {
+    color: #F4FFB2;
+}
+
+.top-feature {
+    background-color: #E3FF3F;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.top-feature p {
+    color: #00DAE3;
+}
+
+.top-right-feature {
+    background-color: #F8B62D;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-right-feature p {
+    color: white;
+}
+
+/* bottom column */
+.bottom-colomn-features {
+    width: 1620px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+.bottom-column-feature {
+    width: 523px;
+    height: 523px;
+
+    border-radius: 50px;
+
+    background-color: black;
+}
+
+.bottom-left-feature {
+    width: 1072px;
+
+    background-color: #B6FFED;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bottom-left-feature p {
+    color: #00AEB6;
+}
+
+.bottom-right-feature {
+    background-color: #DCCBFF;
+}
+
+.bottom-right-feature {
+    color: #F4FFB2;
+}
+
+.extra-features-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 14px;
+}
+
+.features-view-link {
+    width: 146px;
+
+    text-align: center;
+
+    border-radius: 28px;
+
+    background-color: #DCCBFF;
+}
+
+.features-view-link-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #202020
+}

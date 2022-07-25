@@ -7,8 +7,10 @@ import "./css/index.css"
 //components
 import Navigation from "./components/navigation.js"
 import Introduction from "./components/introduction.js"
-import Services from './components/services';
-import Sponsors from './components/sponsors';
+import Services from './components/services.js';
+import Sponsors from './components/sponsors.js';
+import Features from './components/features.js';
+import Footer from "./components/footer.js"
 
 function App()
 {
@@ -32,12 +34,12 @@ function App()
           {Sponsors()}
         </div>
         {/* Features */}
-        <div className="main-grid-item" id="next">
-          <p>5</p>
+        <div className="main-grid-item">
+          {Features()}
         </div>
         {/* Footer */}
-        <div className="main-grid-item" id="unfinished">
-          <p>6</p>
+        <div className="main-grid-item">
+          {Footer()}
         </div>
       </div>
     </>
